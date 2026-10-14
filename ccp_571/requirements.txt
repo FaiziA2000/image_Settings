@@ -1,0 +1,8 @@
+# CS-571 CCP — alternative implementation (Python 3.8+; allowed libraries only)
+numpy>=1.24,<3
+opencv-python>=4.8
+matplotlib>=3.7
+torch>=2.0
+torchvision>=0.15
+scikit-learn>=1.3
+# Pillow is pulled in transitively by torchvision.

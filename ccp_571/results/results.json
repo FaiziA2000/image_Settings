@@ -1,0 +1,169 @@
+{
+  "task1": {
+    "canny": [
+      [
+        "house",
+        "auto (median)",
+        "71/140",
+        "5.52%"
+      ],
+      [
+        "house",
+        "manual",
+        "40/120",
+        "7.27%"
+      ],
+      [
+        "house",
+        "manual",
+        "80/200",
+        "4.18%"
+      ],
+      [
+        "street",
+        "auto (median)",
+        "43/86",
+        "1.38%"
+      ],
+      [
+        "street",
+        "manual",
+        "40/120",
+        "1.38%"
+      ],
+      [
+        "street",
+        "manual",
+        "80/200",
+        "1.00%"
+      ]
+    ],
+    "hough": [
+      [
+        "house",
+        "standard",
+        140,
+        14
+      ],
+      [
+        "house",
+        "probabilistic",
+        "45/45/12",
+        111
+      ],
+      [
+        "street",
+        "standard",
+        140,
+        9
+      ],
+      [
+        "street",
+        "probabilistic",
+        "45/45/12",
+        16
+      ]
+    ]
+  },
+  "task2": {
+    "kp_a": 3033,
+    "kp_b": 3421,
+    "good": 1825,
+    "cross_check": 2040,
+    "inliers": 1814,
+    "match_ratio": 0.6017144741180349
+  },
+  "task3": {
+    "stats": [
+      [
+        "1-2",
+        133,
+        "63.2%"
+      ],
+      [
+        "2-3",
+        98,
+        "74.5%"
+      ],
+      [
+        "3-4",
+        130,
+        "74.6%"
+      ]
+    ],
+    "panorama": [
+      442,
+      910,
+      3
+    ],
+    "mean_inlier_ratio": 70.76666666666667,
+    "method": "findHomography+cylindrical+feather"
+  },
+  "task4": {
+    "best_acc": 0.9625,
+    "final_acc": 0.9625,
+    "classes": [
+      "Forest",
+      "Highway",
+      "Residential",
+      "River"
+    ],
+    "per_class": [
+      [
+        "Forest",
+        "1.00",
+        "1.00",
+        "1.00",
+        60
+      ],
+      [
+        "Highway",
+        "0.96",
+        "0.88",
+        "0.92",
+        60
+      ],
+      [
+        "Residential",
+        "1.00",
+        "0.98",
+        "0.99",
+        60
+      ],
+      [
+        "River",
+        "0.89",
+        "0.98",
+        "0.94",
+        60
+      ]
+    ],
+    "confusion": [
+      [
+        60,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        53,
+        0,
+        7
+      ],
+      [
+        0,
+        1,
+        59,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        59
+      ]
+    ],
+    "target_met": true
+  }
+}
